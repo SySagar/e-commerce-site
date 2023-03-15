@@ -6,7 +6,7 @@ export default function products() {
 
   const [props,setProp] = useState(null)
   useEffect( ()=>{
-    let headers = {Authorization : "Bearer 6f4088c1393b66edac1096b4cd6c28a120ffde6c933bde95faac7a5ba97cee77aeead75935808668630c2b0a431ab1708fee68fd92822926ad949e5f04daf0e630a68fe3019949cd5591cda1464f3b4562320d3a224c5eb54ace65649de2ec01eb2d98c6985c73a105267f131329d12d9ac47069e2fb3ba7020752023106f323"}
+    let headers = {Authorization : "Bearer 9dc34b9ede120c4ddb2fcf48e05c759198cb0c3467a7ecfdcd996a28e9dbcf1b40b976782b1abfe62409a9af51e68d0f769cc600b446550a4ca7121418926072087a1e7fb2746962ccfe0926095ec2aaa3c63e6f3e864def8882e35cfe10ca0de3585dfd3e0e79f06b9083a625ab1124ebb650039fe049ac90be3d13def3b0a3"}
     // const a = await fetch("http://127.0.0.1:1337/api/products?populate=*",{headers : headers})
   
       const url = "http://127.0.0.1:1337/api/products?populate=*"
